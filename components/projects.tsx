@@ -10,14 +10,14 @@ const projects = [
 		title: "The Cube",
 		description:
 			"An animated 3D cube using threejs and html and css for web animations.",
-		image: "/cube.png",
+		image: "./cube.png",
 		link: "https://codepen.io/prathibha_chinni/pen/ogxNwYY",
 	},
 	{
 		id: 2,
 		title: "3D Cyberpunk Tunnel",
 		description: "A 3D animated tunnel built using ThreeJs, HTML and CSS.",
-		image: "/tunnel.png",
+		image: "./tunnel.png",
 		link: "https://codepen.io/prathibha_chinni/pen/jEqOmgp",
 	},
 	{
@@ -25,7 +25,7 @@ const projects = [
 		title: "Liquid Glass Apple",
 		description:
 			"A play on liquid glass effect using HTML, CSS and JavaScript.",
-		image: "/liquid.png",
+		image: "./liquid.png",
 		link: "https://codepen.io/prathibha_chinni/pen/MYyWmMZ",
 	},
 	{
@@ -33,7 +33,7 @@ const projects = [
 		title: "Responsive React Dashboard with Tailwind",
 		description:
 			"A modern, responsive dashboard layout built with React and Tailwind CSS.",
-		image: "/dashboard.png",
+		image: "./dashboard.png",
 		link: "https://codepen.io/prathibha_chinni/pen/gbrbjNe",
 	},
 	{
@@ -41,14 +41,14 @@ const projects = [
 		title: "E-Commerce Landing Page Example",
 		description:
 			"An elegant e-commerce landing page design using HTML, CSS and JS.",
-		image: "/store.png",
+		image: "./store.png",
 		link: "https://codepen.io/prathibha_chinni/pen/PwNwdKX",
 	},
 	{
 		id: 6,
 		title: "Monkey Island CSS Animation (without JS)",
 		description: "An animated sequence uing HTML and CSS.",
-		image: "/island.png",
+		image: "./island.png",
 		link: "https://codepen.io/prathibha_chinni/pen/OPNPoQq",
 	},
 ];

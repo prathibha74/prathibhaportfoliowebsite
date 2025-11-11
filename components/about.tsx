@@ -43,7 +43,7 @@ export default function About() {
 
 					<div className="relative w-full aspect-square md:w-1/2 rounded-lg overflow-hidden md:pr-20">
 						<Image
-							src="/photo2.jpg"
+							src="./photo2.jpg"
 							alt="Developer portrait"
 							fill
 							style={{ objectFit: "cover" }}
