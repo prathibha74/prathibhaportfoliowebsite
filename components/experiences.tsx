@@ -124,7 +124,7 @@ export default function Experiences() {
 										initial={{ opacity: 0, y: -10 }}
 										animate={{ opacity: 1, y: 0 }}
 										exit={{ opacity: 0, y: -10 }}
-										transition={{ ...spring, duration: 0.4 }}
+										transition={{ type: "tween", duration: 0.4 }}
 										className="mt-4 md:hidden bg-gray-900 rounded-lg p-6"
 									>
 										<div className="mb-4 flex flex-wrap gap-2">
@@ -153,7 +153,7 @@ export default function Experiences() {
 							initial={{ opacity: 0, x: 50 }}
 							animate={{ opacity: 1, x: 0 }}
 							exit={{ opacity: 0, x: -50 }}
-							transition={spring}
+							transition={{ type: "tween", duration: 0.4 }}
 							className="flex flex-col justify-center w-full"
 						>
 							<h2 className="text-3xl md:text-4xl font-bold text-purple-400 mb-4">

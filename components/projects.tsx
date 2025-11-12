@@ -109,7 +109,7 @@ export default function Projects() {
 										initial={{ opacity: 0, y: -10 }}
 										animate={{ opacity: 1, y: 0 }}
 										exit={{ opacity: 0, y: -10 }}
-										transition={{ ...spring, duration: 0.4 }}
+										transition={{ type: "tween", duration: 0.4 }}
 										className="mt-4 md:hidden relative w-full h-64 rounded-lg overflow-hidden"
 									>
 										<Image
