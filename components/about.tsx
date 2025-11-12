@@ -2,9 +2,7 @@
 import Image from "next/image";
 import { Ripple } from "./ui/ripple";
 import { motion } from "framer-motion";
-import { File, Search, Settings } from "lucide-react";
 
-import { OrbitingCircles } from "@/components/ui/orbiting-circles";
 
 export default function About() {
 	return (
@@ -99,7 +97,7 @@ export default function About() {
 					initial={{ opacity: 0, y: 20, scale: 0.95 }}
 					animate={{ opacity: 1, y: 0, scale: 1 }}
 					transition={{ duration: 1 }}
-					className="relative w-full md:w-1/2 aspect-square rounded-lg overflow-hidden flex-shrink-0"
+					className="relative w-full md:w-1/2 aspect-square rounded-lg overflow-hidden shrink-0"
 				>
 					<Image
 						src="./photo2.jpg"
