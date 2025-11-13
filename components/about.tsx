@@ -21,7 +21,7 @@ export default function About() {
 				className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl max-w-7xl font-semibold leading-tighter tracking-tight text-balance"
 			>
 				I’m <span className="text-purple-600">Prathibha</span>, a Fullstack
-				Developer with 7 years of experience building scalable, user-centered
+				Developer with experience building scalable, user-centered
 				digital products that merge creativity with technology.
 			</motion.p>
 
