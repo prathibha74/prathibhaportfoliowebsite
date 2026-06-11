@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Briefcase } from "lucide-react";
 
-const experiences = [
+const experiences =[ 
 	{
 		id: 1,
 		role: "Full Stack Developer",
