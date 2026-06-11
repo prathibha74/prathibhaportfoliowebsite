@@ -6,64 +6,54 @@ import { Briefcase } from "lucide-react";
 const experiences = [
 	{
 		id: 1,
-		role: "Frontend Developer",
-		company: "Elysium Digital",
-		period: "2024 — Present",
+		role: "Full Stack Developer",
+		company: "US Bank",
+		period: "May 2025 — Present",
 		description:
 			"Leading the frontend for luxury real estate and software projects. Built interactive 3D experiences and web apps using Next.js, React Three Fiber, Three.js, TailwindCSS, Framer Motion, and TypeScript. Optimized performance, accessibility, and responsive design, integrating APIs and animation-driven user interfaces.",
 		technologies: [
-			"Next.js",
-			"React Three Fiber",
-			"Three.js",
-			"TailwindCSS",
-			"Framer Motion",
-			"TypeScript",
+			"java",
+			"Spring Boot",
+			"PostgreSQL",
+			"AWS",
+			"Cloudwatch",
+			"REST APIs",
+			"Docker"
 		],
 	},
 	{
 		id: 2,
-		role: "Software Engineer",
-		company: "SVN North Holdings",
-		period: "2023 — 2024",
+		role: "Graduate Teaching Assistant",
+		company: "New York Institute of Technology",
+		period: "Jan 2025 — May 2025",
 		description:
-			"Developed scalable web applications for data analytics and AI integrations. Worked with AWS (Lambda, S3, SNS/SQS), Node.js, Express, PostgreSQL, and Redis. Implemented real-time dashboards and data pipelines, focusing on modular and performant codebases.",
-		technologies: [
-			"Node.js",
-			"Express",
-			"PostgreSQL",
-			"Redis",
-			"AWS Lambda",
-			"AWS S3",
-			"SNS/SQS",
+			"Assisted students with Java, Python, Data Structures, Algorithms, and Software Engineering concepts. Developed Python automation scripts that improved grading efficiency by 40%.",
+  technologies: [
+			"Java",
+			"Python",
+			"Data Structures",
+			"Algorithms",
 		],
 	},
 	{
 		id: 3,
-		role: "Creative Technologist",
-		company: "Freelance",
-		period: "2020 — 2023",
+		role: "Full Stack Developer",
+		company: "HCL Technologies",
+		period: "jun 2021 — jan 2024",
 		description:
-			"Designed and developed brand identities and immersive web portfolios for creators and small businesses. Built interactive visuals and websites using HTML, CSS, JavaScript, React, Three.js, and WebGL. Combined motion design, storytelling, and usability for unique experiences.",
-		technologies: ["HTML", "CSS", "JavaScript", "React", "Three.js", "WebGL"],
+			"Developed modular Spring Boot microservices for enterprise insurance platforms. Built backend services using Java and REST APIs, optimized SQL queries and caching, and integrated React frontends with backend systems.",
+  technologies: ["Java", "Spring Boot", "React", "REST APIs", "MYSQL", "Microservices"],
 	},
 	{
 		id: 4,
-		role: "UI/UX Designer",
-		company: "Bright Ideas Studio",
-		period: "2019 — 2020",
+		role: "Software Engineering Research Intern",
+		company: "IIIT Hyderabad",
+		period: "Jan 2021 - Apr 2021",
 		description:
-			"Crafted user-centered interfaces and prototypes for web and mobile apps. Conducted research, wireframing, and high-fidelity design using Figma, Adobe XD, and InVision. Focused on usability, accessibility, and conversion optimization.",
-		technologies: ["Figma", "Adobe XD", "InVision"],
+			"Built Python and FastAPI backend services for NLP systems. Optimized large-scale processing pipelines and developed AWS Lambda-based OCR automation workflows.",
+  technologies: ["Python", "Fast API","AWS LAMBDA","NLP"],
 	},
-	{
-		id: 5,
-		role: "Intern Developer",
-		company: "Tech Horizons",
-		period: "2018 — 2019",
-		description:
-			"Assisted in building internal tools and web applications using React, Node.js, Express, and MongoDB. Contributed to feature development, debugging, and responsive UIs. Learned agile workflow and version control best practices.",
-		technologies: ["React", "Node.js", "Express", "MongoDB", "Git"],
-	},
+	
 ];
 
 export default function Experiences() {
