@@ -28,7 +28,7 @@ export default function Hero() {
 					Prathibha
 				</h1>
 				<p className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-semibold tracking-tighter text-white mt-2">
-					Fullstack Developer
+					Full Stack Developer
 				</p>
 			</motion.div>
 
@@ -37,12 +37,13 @@ export default function Hero() {
 				initial={{ opacity: 0, y: 20 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ delay: 0.5, duration: 1 }}
-				className="font-medium max-w-xl text-center text-gray-300 text-sm sm:text-base md:text-lg mt-6 px-2"
+				className="font-medium max-w-3xl text-center text-gray-300 text-sm sm:text-base md:text-lg mt-6 px-2"
 			>
-				I create high-performance, visually refined digital experiences that
-				blend creativity and precision. With expertise in modern web
-				technologies, I build scalable, user-focused solutions that bring ideas
-				to life and drive real impact.
+				Full Stack Developer with experience building scalable microservices,
+cloud-native applications, and modern web platforms using Java,
+Spring Boot, React, AWS, and Azure. Passionate about designing reliable
+software systems, optimizing performance, and delivering high-quality
+solutions.
 			</motion.p>
 
 			{/* CTA Buttons */}
